@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Single page</title>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+></script>
+
+<script
+    src="js/app.min.js"
+></script>
+
+
+    <link rel="stylesheet" href="css/single-product-page.min.css">
+</head>
+<body class="preload">
+
+    <div class="splash-screen"></div>
+
+
+    <div class="page-menu slideout-menu">
+    <span class="slideout-menu__close-btn page-menu__close-btn"></span>
+
+    <div class="page-menu__wrapper">
+        <div class="page-menu__navigation page-menu-nav">
+            <ul>
+                <li class="page-menu-nav__item"><a href="/">Главная</a></li>
+                <li class="page-menu-nav__item"><a href="/">Каталог</a></li>
+                <li class="page-menu-nav__item"><a href="/coffee.html">Кофейня</a></li>
+                <li class="page-menu-nav__item"><a href="/">Акции</a></li>
+                <li class="page-menu-nav__item"><a href="/">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <div class="page-blackout blackout"></div>
+
+    <main class="_page page">
+        <div class="page__blackout blackout"></div>
+
+        <div class="page__background ibg">
+            <img src="img/single-product-page/page/bg.png" alt="">
+        </div>
+
+        <div class="page__content _wrapper">
+            <header class="main-header @@class">
+    <div class="main-header__container _container">
+        <div class="main-header__row">
+            <a class="main-header__logo logo" href="/">
+                <i class="logo__yin">BOOK</i><i class="logo__yang">STOCK</i>
+            </a>
+
+            <div class="main-header__menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="/">Главная</a></li>
+                        <li class="menu__item"><a href="#">Каталог</a></li>
+                        <li class="menu__item"><a href="/coffee.html">Кофейня</a></li>
+                        <li class="menu__item"><a href="#">Акции</a></li>
+                        <li class="menu__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-header__secondary-nav secondary-nav">
+                <span class="secondary-nav__item">
+                    <img src="img/secondary-nav/heart.svg" alt="">
+                </span>
+
+                <span class="secondary-nav__item">
+                    <img src="img/secondary-nav/profile.svg" alt="">
+                </span>
+            </div>
+
+            <div class="main-header__burget-btn burger-btn">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+            <section class="bried-info-section section">
+                <div class="bried-info-section__wrapper _container">
+                    <div class="bried-info-section__image-wrapper">
+                        <img src="img/single-product-page/bried-info-section/holder.png" alt="">
+                    </div>
+
+                    <div class="bried-info-section__text-info text-info">
+                        <div class="info-table">
+                            <div class="info-table__row">
+                                <span class="info-table__key-cell">Название :</span>
+                                <span class="info-table__value-cell">Девушка с татуировкой дракона</span>
+                            </div>
+
+                            <div class="info-table__row">
+                                <span class="info-table__key-cell">Автор :</span>
+                                <span class="info-table__value-cell">Стиг Ларссон</span>
+                            </div>
+
+                            <div class="info-table__row">
+                                <span class="info-table__key-cell">Жанр :</span>
+                                <span class="info-table__value-cell">Детектив</span>
+                            </div>
+
+                            <div class="info-table__row">
+                                <span class="info-table__key-cell">Год :</span>
+                                <span class="info-table__value-cell">2005</span>
+                            </div>
+
+                            <div class="info-table__row">
+                                <span class="info-table__key-cell">Рейтинг :</span>
+                                <span class="info-table__value-cell">
+                                    <div class="stars">
+                                        <span>
+                                            <img src="img/stars/star-filled.svg" alt="">
+                                        </span>
+
+                                        <span>
+                                            <img src="img/stars/star-filled.svg" alt="">
+                                        </span>
+
+                                        <span>
+                                            <img src="img/stars/star-filled.svg" alt="">
+                                        </span>
+
+                                        <span>
+                                            <img src="img/stars/star-filled.svg" alt="">
+                                        </span>
+
+                                        <span>
+                                            <img src="img/stars/star-filled.svg" alt="">
+                                        </span>
+                                    </div>
+
+                                    <span class="rating-number">1</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="text-info__footer">
+                            <a href="#" class="big-btn">Купить</a>
+
+                            <span class="text-info__price">2800₽</span>
+
+                            <img src="img/single-product-page/text-info/heart.svg" class="text-info__heart-btn" alt="heart">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="description-section section">
+                <div class="description-section__wrapper _container">
+                    <span class="description-section__title">Описание :</span>
+
+                    <p class="description-section__text block-text">
+                        Девушка с татуировкой дракона — детективный триллер. Кинокартина, режиссёром которой стал Дэвид Финчер, вышла в 2011 году.<br /><br />
+                        У журналиста Микаэля Блумквиста возникли неприятности. Его обвинили в том, что он якобы оклеветал известного влиятельного миллиардера. В издательстве его временно отстранили от работы. В это же время с Микаэлем связался не менее влиятельный Хенрик Вангер. Мужчина почтенного возраста создавал положительное впечатление. Он предложил талантливому журналисту прибыльную подработку. Миллиардер попросил взяться за расследование семейной тайны 40-летней давности. Племянница Харриет таинственным образом исчезла, и с того времени расследование не дало результатов. Также Хенрик Вангер дополнительно попросил записать его биографию.<br /><br />
+
+                        Журналист принял предложение миллиардера. У того оказался семейный остров, и Микаэль переехал туда на время расследования. Он обратил внимание, что там живут странные люди, которых большинство. Каждый из них вызывает подозрения. Первый — престарелый предприниматель-нацист. Вторая — это мама девочки, которая когда-то исчезла. Остальные все также подозрительные и не совсем положительные персонажи.<br />
+                    </p>
+
+                    <a href="#" class="description-section__more-link">Читать продолжение …</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        function ibg() {
+            let ibg = document.querySelectorAll(".ibg");
+
+            for (var i = 0; i < ibg.length; i++) {
+                if (ibg[i].querySelector('img')) {
+                    ibg[i].style.backgroundImage = 'url('+ibg[i].querySelector('img').getAttribute('src')+')';
+                }
+            }
+        }
+
+        ibg();
+    </script>
+
+</body>
+</html>

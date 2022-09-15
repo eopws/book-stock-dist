@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Single page</title>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+></script>
+
+<script
+    src="js/app.min.js"
+></script>
+
+
+    <link rel="stylesheet" href="css/coffee-page.min.css">
+</head>
+<body class="preload">
+
+    <div class="image-popup-preview">
+    <div class="image-popup-preview__wrapper">
+        <div class="image-popup-preview__blackout"></div>
+
+        <div class="image-popup-preview__image-wrapper ibg">
+            <img src="" alt="">
+        </div>
+
+        <div class="image-popup-preview__arrows">
+            <span data-direction="left"><img src="img/coffee-page/gallery-slider/arrow-L.svg" alt=""></span>
+            <span data-direction="right"><img src="img/coffee-page/gallery-slider/arrow-R.svg" alt=""></span>
+        </div>
+
+        <span class="image-popup-preview__close"></span>
+    </div>
+</div>
+
+
+    <div class="splash-screen"></div>
+
+
+    <div class="page-menu slideout-menu">
+    <span class="slideout-menu__close-btn page-menu__close-btn"></span>
+
+    <div class="page-menu__wrapper">
+        <div class="page-menu__navigation page-menu-nav">
+            <ul>
+                <li class="page-menu-nav__item"><a href="/">Главная</a></li>
+                <li class="page-menu-nav__item"><a href="/">Каталог</a></li>
+                <li class="page-menu-nav__item"><a href="/coffee.html">Кофейня</a></li>
+                <li class="page-menu-nav__item"><a href="/">Акции</a></li>
+                <li class="page-menu-nav__item"><a href="/">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <div class="page-blackout blackout"></div>
+
+    <main class="_main _page page">
+        <div class="page__blackout blackout"></div>
+
+        <div class="page__background ibg">
+            <img src="img/coffee-page/page/bg.png" alt="">
+        </div>
+
+        <div class="page__content _wrapper">
+            <header class="main-header @@class">
+    <div class="main-header__container _container">
+        <div class="main-header__row">
+            <a class="main-header__logo logo" href="/">
+                <i class="logo__yin">BOOK</i><i class="logo__yang">STOCK</i>
+            </a>
+
+            <div class="main-header__menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="/">Главная</a></li>
+                        <li class="menu__item"><a href="#">Каталог</a></li>
+                        <li class="menu__item"><a href="/coffee.html">Кофейня</a></li>
+                        <li class="menu__item"><a href="#">Акции</a></li>
+                        <li class="menu__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-header__secondary-nav secondary-nav">
+                <span class="secondary-nav__item">
+                    <img src="img/secondary-nav/heart.svg" alt="">
+                </span>
+
+                <span class="secondary-nav__item">
+                    <img src="img/secondary-nav/profile.svg" alt="">
+                </span>
+            </div>
+
+            <div class="main-header__burget-btn burger-btn">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+            <section class="coffee-section">
+                <div class="_container">
+                    <div class="described-image section">
+                        <div class="described-image__text-info block-text">
+                            <p>Что может быть приятнее, чем, устроившись поудобнее с чашечкой кофе в руках, почитать часок-другой книгу? Именно у нас вы сможете не только вкусно поесть, но и уделить время чтению книг, в изобилии разместившихся на полках. Места хватит для всех, так как у нас есть целых три зала!</p>
+                        </div>
+
+                        <div data-img-src="img/main-page/coffee-section/Mapsicle Map.png" class="described-image__image-wrapper js-previewable ibg">
+                            <img src="img/main-page/coffee-section/Mapsicle Map.png" alt="">
+                            <div class="js-previewable__blackout blackout"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery-section section">
+                <div class="section__wrapper _container">
+                    <span class="block-title">Наши фотостоки</span>
+
+                    <div class="gallery-section__slider-wrapper gallery-slider-wrapper">
+                        <button class="gallery-slider-arrow gallery-slider-arrow--left"><img src="img/coffee-page/gallery-slider/arrow-L.svg" alt=""></button>
+
+                        <div class="gallery-slider">
+                            <div data-img-src="img/coffee-page/gallery-slider/img-1.png" class="gallery-slider__item js-previewable">
+                                <img src="img/coffee-page/gallery-slider/img-1.png" alt="">
+                            </div>
+
+                            <div data-img-src="img/coffee-page/gallery-slider/img-2.png" class="gallery-slider__item js-previewable">
+                                <img src="img/coffee-page/gallery-slider/img-2.png" alt="">
+                            </div>
+
+                            <div data-img-src="img/coffee-page/gallery-slider/img-3.png" class="gallery-slider__item js-previewable">
+                                <img src="img/coffee-page/gallery-slider/img-3.png" alt="">
+                            </div>
+                        </div>
+
+                        <button class="gallery-slider-arrow gallery-slider-arrow--right"><img src="img/coffee-page/gallery-slider/arrow-R.svg" alt=""></button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="menu-section section">
+                <div class="section__wrapper _container">
+                    <span class="block-title">МЕНЮ</span>
+
+                    <div class="menu-section__content">
+                        <div class="menu-section__menu">
+                            <div class="menu-table">
+                                <div class="menu-table__header">
+                                    <div class="menu-table__col menu-table__row-title menu-table__title">Кофе</div>
+                                    <div class="menu-table__col menu-table__row-value">
+                                        <div class="menu-table__cup-type">
+                                            <img src="img/coffee-page/menu-table/cup-small.svg" alt="">
+                                            250 мл
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-table__col menu-table__row-value">
+                                        <div class="menu-table__cup-type">
+                                            <img src="img/coffee-page/menu-table/cup-medium.svg" alt="">
+                                            350 мл
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-table__col menu-table__row-value">
+                                        <div class="menu-table__cup-type">
+                                            <img src="img/coffee-page/menu-table/cup-large.svg" alt="">
+                                            450 мл
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Американо</div>
+                                    <div class="menu-table__col menu-table__row-value">70 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">90 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">100 ₽</div>
+                                </a>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Латте</div>
+                                    <div class="menu-table__col menu-table__row-value">80 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">10 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">130 ₽</div>
+                                </a>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Капучино</div>
+                                    <div class="menu-table__col menu-table__row-value">75 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">95 ₽</div>
+                                    <div class="menu-table__col menu-table__row-value">115 ₽</div>
+                                </a>
+                            </div>
+
+                            <div class="menu-section__more-link-wrapper">
+                                <a href="#" class="menu-section__more-link">Другие напитки&nbsp; <svg width="13" height="12" viewBox="0 0 13 12" fill="none"><path d="M12.1292 0.75L6.5 10.5L0.870836 0.749999L12.1292 0.75Z"/></svg></a>
+                            </div>
+                        </div>
+
+                        <div class="menu">
+                            <div class="menu-table menu-table--two-columns">
+                                <div class="menu-table__header">
+                                    <div class="menu-table__col menu-table__title">Дессерты</div>
+                                </div>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Торт шоколадный мусс</div>
+
+                                    <div class="menu-table__col menu-table__row-value">150 ₽</div>
+                                </a>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Латте</div>
+                                    <div class="menu-table__col menu-table__row-value">80 ₽</div>
+                                </a>
+
+                                <a href="#" class="menu-table__row">
+                                    <div class="menu-table__col menu-table__row-title">Капучино</div>
+                                    <div class="menu-table__col menu-table__row-value">75 ₽</div>
+                                </a>
+                            </div>
+
+                            <div class="menu-section__more-link-wrapper">
+                                <a href="#" class="menu-section__more-link">Другие дессерты&nbsp; <svg width="13" height="12" viewBox="0 0 13 12" fill="none"><path d="M12.1292 0.75L6.5 10.5L0.870836 0.749999L12.1292 0.75Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        $('.gallery-slider').slick({
+            slidesToShow: 3,
+            infinity: true,
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToScroll: 2,
+            prevArrow: $('.gallery-slider-arrow--left'),
+            nextArrow: $('.gallery-slider-arrow--right'),
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                    }
+                }
+            ]
+        });
+
+        const toClone1 = $(".gallery-slider .slick-track").children('.slick-slide:nth-of-type(1)');
+        const toClone2 = $(".gallery-slider .slick-track").children('.slick-slide:nth-of-type(2)');
+        const toClone3 = $(".gallery-slider .slick-track").children('.slick-slide:nth-of-type(3)');
+
+        toClone1.clone().appendTo(".gallery-slider .slick-track");
+        toClone2.clone().appendTo(".gallery-slider .slick-track");
+        toClone3.clone().appendTo(".gallery-slider .slick-track");
+
+        // Set any option only for refresh slider                        refresh true
+        //                            ^                                    ^
+        $('.gallery-slider').slick('slickSetOption', 'infinite', true, true);
+    </script>
+
+</body>
+</html>
